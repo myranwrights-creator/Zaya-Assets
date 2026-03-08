@@ -1,60 +1,88 @@
-# Use this simplified HTML for your root index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="Nw7dJdHvZxUtqXT6nqzW4KSB8bNFZW3H0TX0m-nEYI0">
-    <title>Sarasota & Bradenton Local Service Pros | Zaya Assets Hub</title>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0M4ST780RY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0M4ST780RY');
+    </script>
+
+    <title>Sarasota & Bradenton Local Service Network | Verified Pros</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background: #f9f9f9; }
-        header { background: #2c3e50; color: white; padding: 2rem; text-align: center; }
-        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
-        .category-card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .category-card h2 { color: #27ae60; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 0; }
+        :root { --primary: #2c3e50; --secondary: #27ae60; --accent: #2980b9; --bg: #f4f7f6; }
+        body { font-family: 'Inter', system-ui, sans-serif; line-height: 1.6; color: #333; margin: 0; background: var(--bg); }
+        header { background: var(--primary); color: white; padding: 3rem 1rem; text-align: center; border-bottom: 5px solid var(--secondary); }
+        .hero h1 { margin: 0; font-size: 2.5rem; letter-spacing: -1px; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid var(--secondary); }
+        .card h2 { color: var(--primary); margin-top: 0; font-size: 1.5rem; }
         ul { list-style: none; padding: 0; }
-        li { margin: 0.8rem 0; }
-        a { color: #2980b9; text-decoration: none; font-weight: 500; }
-        a:hover { text-decoration: underline; color: #3498db; }
-        footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #666; }
+        li { padding: 0.8rem 0; border-bottom: 1px solid #eee; }
+        a { color: var(--accent); text-decoration: none; font-weight: 600; display: block; }
+        a:hover { color: var(--secondary); }
+        footer { background: #eee; text-align: center; padding: 3rem 1rem; margin-top: 4rem; font-size: 0.9rem; color: #777; }
+        .badge { display: inline-block; background: var(--secondary); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; margin-bottom: 10px; text-transform: uppercase; font-weight: bold; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Sarasota-Bradenton Service Directory</h1>
-        <p>Your Verified Network of Local Pros in Manatee & Sarasota Counties</p>
-    </header>
-    <div class="container">
-        <div class="grid">
-            <div class="category-card">
-                <h2>🚨 Emergency Services</h2>
-                <ul>
-                    <li><a href="Emergency-Plumbing-Bradenton/">Emergency Plumbing Bradenton</a></li>
-                    <li><a href="Water-Damage-Restoration-Sarasota/">Water Damage Restoration Sarasota</a></li>
-                    <li><a href="Emergency-Roofing-Sarasota/">Emergency Roofing Repairs</a></li>
-                </ul>
-            </div>
-            <div class="category-card">
-                <h2>🏠 Home Improvement</h2>
-                <ul>
-                    <li><a href="Sarasota-Solar-Installation/">Solar Panel Installation</a></li>
-                    <li><a href="Bradenton-AC-Repair/">AC Repair & Maintenance</a></li>
-                    <li><a href="Sarasota-Kitchen-Remodeling/">Kitchen Remodeling Pros</a></li>
-                </ul>
-            </div>
-            <div class="category-card">
-                <h2>🌳 Outdoor & Property</h2>
-                <ul>
-                    <li><a href="Bradenton-Landscaping-Services/">Landscaping & Design</a></li>
-                    <li><a href="Sarasota-Pest-Control/">Pest Control Solutions</a></li>
-                    <li><a href="Bradenton-Pool-Cleaning/">Professional Pool Cleaning</a></li>
-                </ul>
-            </div>
+
+<header>
+    <div class="hero">
+        <span class="badge">Verified Service Network</span>
+        <h1>Sarasota & Bradenton Local Pros</h1>
+        <p>Your Trusted Connection to Licensed Contractors in Florida</p>
+    </div>
+</header>
+
+<div class="container">
+    <div class="grid">
+        <div class="card">
+            <div class="badge" style="background: #e74c3c;">24/7 Priority</div>
+            <h2>Emergency Services</h2>
+            <ul>
+                <li><a href="Emergency-Plumbing-Bradenton/">Emergency Plumbing Bradenton</a></li>
+                <li><a href="Water-Damage-Restoration-Sarasota/">Water Restoration Sarasota</a></li>
+                <li><a href="Emergency-Roofing-Sarasota/">Emergency Roofing Repair</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="badge">Home Quality</div>
+            <h2>HVAC & Comfort</h2>
+            <ul>
+                <li><a href="Bradenton-AC-Repair/">AC Repair Bradenton</a></li>
+                <li><a href="Sarasota-Solar-Installation/">Solar Panel Installation</a></li>
+                <li><a href="Sarasota-Kitchen-Remodeling/">Kitchen Remodeling</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="badge">Property Care</div>
+            <h2>Outdoor & Maintenance</h2>
+            <ul>
+                <li><a href="Bradenton-Landscaping-Services/">Professional Landscaping</a></li>
+                <li><a href="Sarasota-Pest-Control/">Pest Control Services</a></li>
+                <li><a href="Bradenton-Pool-Cleaning/">Pool Cleaning & Service</a></li>
+            </ul>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2026 Zaya Assets Portfolio. All services provided by licensed local contractors.</p>
-        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
-    </footer>
+</div>
+
+<footer>
+    <p>&copy; 2026 Zaya Assets Portfolio. All Rights Reserved.</p>
+    <p>
+        <a href="privacy.html" style="display:inline; margin: 0 10px;">Privacy Policy</a> | 
+        <a href="terms.html" style="display:inline; margin: 0 10px;">Terms of Service</a>
+    </p>
+    <p style="font-size: 0.8rem; margin-top: 20px;">Disclaimer: We are a marketing provider. All calls are routed to licensed local contractors.</p>
+</footer>
+
 </body>
 </html>
